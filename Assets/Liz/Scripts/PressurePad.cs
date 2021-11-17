@@ -13,7 +13,7 @@ public class PressurePad : MonoBehaviour
     {
         if (PadPress == true)
         {            
-            transform.position = new Vector3(transform.position.x, transform.position.y - 0.25f * Time.deltaTime, 0);
+            transform.position = new Vector3(transform.position.x, transform.position.y - 0.25f * Time.deltaTime * 10, 0);
             PadActive = true;
         }
 

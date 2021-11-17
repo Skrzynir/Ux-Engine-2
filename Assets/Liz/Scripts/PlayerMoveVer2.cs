@@ -86,6 +86,14 @@ public class PlayerMoveVer2 : MonoBehaviour
             numOfJumps = MaxNumOfJumps;
             Ani.SetBool("IsJumping", false);
         }
+
+        if (collider.tag == "Box")
+        {
+            PlayerRb.sharedMaterial = GroundedMat;
+            isAirborne = false;
+            numOfJumps = MaxNumOfJumps;
+            Ani.SetBool("IsJumping", false);
+        }
     }
     private void OnTriggerExit2D(Collider2D collider)
     {

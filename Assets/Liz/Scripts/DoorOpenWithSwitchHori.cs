@@ -2,24 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoorOpenWithSwitch : MonoBehaviour
+public class DoorOpenWithSwitchHori : MonoBehaviour
 {
     public GameObject SwitchObject;
     Switch press;
 
-    
+
     void Start()
     {
         press = SwitchObject.GetComponent<Switch>();
     }
 
-    
+
     void Update()
     {
         if (press.SwitchActive == true)
         {
-            transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y + 10 * Time.deltaTime, -200, 200), 0);
-            
+            gameObject.SetActive(false);
+
         }
     }
 }

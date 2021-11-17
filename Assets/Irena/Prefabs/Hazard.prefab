@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7071371310685645656}
   - component: {fileID: 240295588832688358}
-  - component: {fileID: 7090373060830143265}
+  - component: {fileID: -8981242955310070274}
+  - component: {fileID: -1690250138309024950}
   m_Layer: 0
   m_Name: Hazard
   m_TagString: Untagged
@@ -83,16 +84,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &7090373060830143265
-BoxCollider:
+--- !u!61 &-8981242955310070274
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2006935619607035835}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 17.64, y: 5.92}
+    newSize: {x: 17.64, y: 5.92}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 17.64, y: 5.92, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 17.64, y: 5.92}
+  m_EdgeRadius: 0
+--- !u!114 &-1690250138309024950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006935619607035835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e61f46006c7ab8489a1aaeae81c49f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Alive: 1
+  player: {fileID: 2030659975062613792, guid: fc9e06200503fa84e8890f3f58f7579f, type: 3}
+  spawnpoint: {fileID: 3337918977462217394, guid: c7715175ed162de4594c595a2fb5433a, type: 3}

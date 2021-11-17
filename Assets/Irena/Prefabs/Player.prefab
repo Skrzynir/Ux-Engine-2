@@ -197,6 +197,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   jumpForce: 1500
+  MaxNumOfJumps: 1
+  GroundedMat: {fileID: 0}
+  AirborneMat: {fileID: 0}
   PlayerRb: {fileID: 2030659975062613798}
   Ani: {fileID: 2030659975062613799}
   SR: {fileID: 2030659975062613796}

@@ -6,21 +6,25 @@ public class PlayerMoveVer2 : MonoBehaviour
 {
     public float speed = 10f;
     public float jumpForce = 300f;
-    
+
     private float moveHori;
     private float moveVert;
     private Vector2 currVelo;
 
-    private bool isJumping = false;
-    private bool hasJumped = false;
+   
+    int numOfJumps = 1;
+    public int MaxNumOfJumps = 1;
+    bool isAirborne = false;
+    public PhysicsMaterial2D GroundedMat;
+    public PhysicsMaterial2D AirborneMat;
 
     public Rigidbody2D PlayerRb;
 
     //Animation Variables
     public Animator Ani;
     public SpriteRenderer SR;
+   
 
-    // Start is called before the first frame update
     void Start()
     {
         PlayerRb = GetComponent<Rigidbody2D>();
@@ -28,34 +32,26 @@ public class PlayerMoveVer2 : MonoBehaviour
         SR = GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         moveHori = Input.GetAxis("Horizontal");
         moveVert = Input.GetAxis("Vertical");
         currVelo = PlayerRb.velocity;
 
-        isJumping = false;
-       
+
+
 
         if (Input.GetKeyDown(KeyCode.W))
         {
-            isJumping = true;
-            hasJumped = false;
-            Ani.SetBool("IsJumping", true);
-        }
-       
-
-        if (moveHori != 0)
-        {
-            PlayerRb.velocity = new Vector2(moveHori * speed, currVelo.y);
+            if (numOfJumps > 0)
+            {
+                Jump();
+                BeginAirborne();
+                Ani.SetBool("IsJumping", true);
+            }
         }
 
-        if (isJumping && !hasJumped)
-        {
-            PlayerRb.AddForce(Vector2.up * jumpForce, ForceMode2D.Force);
-            //hasJumped = true;
-        }
+        PlayerRb.velocity = new Vector2(moveHori * speed, currVelo.y);
 
         Ani.SetFloat("Speed", Mathf.Abs(moveHori));
 
@@ -68,38 +64,32 @@ public class PlayerMoveVer2 : MonoBehaviour
             gameObject.transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
         }
     }
-/*
-    private void FixedUpdate()
-    {
-        if (moveHori != 0)
-        {
-            PlayerRb.velocity = new Vector2(moveHori * speed, currVelo.y);
-        }
 
-        if (isJumping && !hasJumped)
-        {
-            PlayerRb.AddForce(Vector2.up * jumpForce, ForceMode2D.Force);
-            //hasJumped = true;
-        }
-    }*/
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    void Jump()
     {
-        if (collision.collider.tag == "Platform")
+        numOfJumps--;
+        PlayerRb.AddForce(Vector2.up * jumpForce, ForceMode2D.Force);
+    }
+
+    void BeginAirborne()
+    {
+        isAirborne = true;
+        PlayerRb.sharedMaterial = AirborneMat;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.tag == "Platform")
         {
-            isJumping = false;
+            PlayerRb.sharedMaterial = GroundedMat;
+            isAirborne = false;
+            numOfJumps = MaxNumOfJumps;
             Ani.SetBool("IsJumping", false);
         }
     }
-
-
-    private void OnCollisionExit2D(Collision2D collision)
+    private void OnTriggerExit2D(Collider2D collider)
     {
-        if (collision.collider.tag == "Platform")
-        {
-            isJumping = true;
-
-        }
+        BeginAirborne();
+        numOfJumps = MaxNumOfJumps - 1;
     }
-
 }

@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Irena/Scenes/WorldOne_Test2.unity
     guid: e54efeccd9b81fb488b687f614cc8b83
   - enabled: 1
+    path: Assets/Keegan/Menu/Menu.unity
+    guid: 0ca72337aefd6094296344b66dd0e1e1
+  - enabled: 1
     path: Assets/Liz/Scenes/Level 1 Test Build 1.unity
     guid: 703eb3d588fcbfb4397c7322ac1420ca
   m_configObjects: {}

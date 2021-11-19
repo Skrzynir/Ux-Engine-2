@@ -23,6 +23,8 @@ public class PlayerMoveVer2 : MonoBehaviour
     //Animation Variables
     public Animator Ani;
     public SpriteRenderer SR;
+
+    public ParticleSystem JumpLandPS;
    
 
     void Start()
@@ -30,6 +32,9 @@ public class PlayerMoveVer2 : MonoBehaviour
         PlayerRb = GetComponent<Rigidbody2D>();
         Ani = GetComponent<Animator>();
         SR = GetComponent<SpriteRenderer>();
+        JumpLandPS.Stop();
+        
+        
     }
 
     void Update()
@@ -37,6 +42,7 @@ public class PlayerMoveVer2 : MonoBehaviour
         moveHori = Input.GetAxis("Horizontal");
         moveVert = Input.GetAxis("Vertical");
         currVelo = PlayerRb.velocity;
+        JumpLandPS.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - 3, -2);
 
 
 
@@ -85,6 +91,7 @@ public class PlayerMoveVer2 : MonoBehaviour
             isAirborne = false;
             numOfJumps = MaxNumOfJumps;
             Ani.SetBool("IsJumping", false);
+            JumpLandPS.Play();
         }
 
         if (collider.tag == "Box")

@@ -31,7 +31,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2030659975062613792}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 23.3, z: 0}
+  m_LocalPosition: {x: 0, y: 750, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -197,6 +197,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   jumpForce: 1500
+  MaxNumOfJumps: 1
+  GroundedMat: {fileID: 0}
+  AirborneMat: {fileID: 0}
   PlayerRb: {fileID: 2030659975062613798}
   Ani: {fileID: 2030659975062613799}
   SR: {fileID: 2030659975062613796}
+  JumpLandPS: {fileID: 0}

@@ -24,7 +24,7 @@ public class DoorOpenWithPressurePad : MonoBehaviour
 
         if (active.PadActive == false)
         {
-            transform.position = new Vector3(transform.position.x, 1, 0);
+            //transform.position = new Vector3(transform.position.x, 1, 0);
         }
     }
 

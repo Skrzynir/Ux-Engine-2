@@ -21,7 +21,7 @@ public class CameraSwitch : MonoBehaviour
 
     IEnumerator OpenScene()
     {
-        yield return new WaitForSecondsRealtime(7.5f);
+        yield return new WaitForSecondsRealtime(7.0f);
 
         AniCamera.SetActive(false);
         PlayerCamera.SetActive(true);

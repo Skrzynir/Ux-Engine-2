@@ -50,4 +50,9 @@ public class OrbUIDisplay : MonoBehaviour
             blue.enabled = true;
         }
     }
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
 }

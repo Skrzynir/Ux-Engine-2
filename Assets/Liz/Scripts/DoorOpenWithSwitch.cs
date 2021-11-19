@@ -18,7 +18,8 @@ public class DoorOpenWithSwitch : MonoBehaviour
     {
         if (press.SwitchActive == true)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y + 10 * Time.deltaTime, 0);
+            transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y + 10 * Time.deltaTime, -200, 200), 0);
+            
         }
     }
 }

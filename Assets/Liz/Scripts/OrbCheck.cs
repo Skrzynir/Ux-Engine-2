@@ -10,18 +10,16 @@ public class OrbCheck : MonoBehaviour
     
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && Trigger == true)
+        if (Input.GetKeyDown(KeyCode.E) && Trigger == true)
         {
             HasOrb = true;
-            Debug.Log("HasOrb");
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Orb")
         {
-            Trigger = true;
-            Debug.Log("Trigger");
+            Trigger = true;           
         }
     }
 

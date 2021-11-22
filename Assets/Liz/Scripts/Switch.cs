@@ -23,6 +23,7 @@ public class Switch : MonoBehaviour
             SR.sprite = GreySwitch;
             SR.flipY = true;
         }
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

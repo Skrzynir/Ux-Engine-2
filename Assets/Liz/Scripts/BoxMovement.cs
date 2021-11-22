@@ -7,7 +7,7 @@ public class BoxMovement : MonoBehaviour
     public GameObject player;
     public Rigidbody2D boxRb;
        
-    //private bool triggerEntered = false;
+    
 
     public float speed = 10;
     public bool isFloating = false;
@@ -18,24 +18,7 @@ public class BoxMovement : MonoBehaviour
     }
 
 
-    void Update()
-    {
-      /*  if (Input.GetKeyDown(KeyCode.Space) && triggerEntered == true)
-        {
-            Vector3 move = new Vector3(0, 0, 0);
-            gameObject.transform.position += move * Time.deltaTime * speed;
-        }*/
-    }
-
-  /*  private void OnTriggerEnter2D(Collider2D other)
-    {
-        triggerEntered = true;        
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        triggerEntered = false;
-    }*/
+   
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.tag == "Platform")

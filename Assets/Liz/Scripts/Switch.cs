@@ -10,7 +10,7 @@ public class Switch : MonoBehaviour
    
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && SwitchToPress == true)
+        if (Input.GetKeyDown(KeyCode.E) && SwitchToPress == true)
         {
             SwitchActive = true;
         }

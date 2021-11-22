@@ -15,9 +15,7 @@ public class PressurePad : MonoBehaviour
         {            
             transform.position = new Vector3(transform.position.x, transform.position.y - 0.25f * Time.deltaTime * 10, 0);
             PadActive = true;
-        }
-
-                
+        }                
     }
 
     public void OnTriggerEnter2D(Collider2D collision)

@@ -13,7 +13,7 @@ public class DoorOpenWithPressurePad : MonoBehaviour
         active = PressurePad.GetComponent<PressurePad>();
     }
 
-    
+
     void Update()
     {
         if (active.PadActive == true)
@@ -22,11 +22,7 @@ public class DoorOpenWithPressurePad : MonoBehaviour
 
         }
 
-        if (active.PadActive == false)
-        {
-            //transform.position = new Vector3(transform.position.x, 1, 0);
-        }
-    }
+    }  
 
 
 }

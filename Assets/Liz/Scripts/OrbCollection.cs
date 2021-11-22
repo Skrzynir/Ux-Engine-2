@@ -16,12 +16,12 @@ public class OrbCollection : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && pass == true)
+        if (Input.GetKeyDown(KeyCode.E) && pass == true)
         {
             orb.HasOrb = true;
             collect = true;
             Destroy(gameObject);
-            Debug.Log("hold");
+            
         }
     }
 

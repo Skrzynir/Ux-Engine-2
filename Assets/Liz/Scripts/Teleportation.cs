@@ -11,7 +11,7 @@ public class Teleportation : MonoBehaviour
 
     void Update()
     {
-         if (Input.GetKeyDown(KeyCode.Space) && triggerEntered == true)
+         if (Input.GetKeyDown(KeyCode.E) && triggerEntered == true)
         {
             player.transform.position = teleportTarget.transform.position;            
         }

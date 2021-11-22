@@ -26069,7 +26069,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8024201652361888721, guid: 3d9ef3095548d504b8cce61c53478392, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 104.49
+      value: 103.01
       objectReference: {fileID: 0}
     - target: {fileID: 8024201652361888721, guid: 3d9ef3095548d504b8cce61c53478392, type: 3}
       propertyPath: m_LocalPosition.y
@@ -31579,11 +31579,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdf0e10d17f93f5428c436e3be1ccb3e, type: 3}
---- !u!198 &2116972556 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 6286934320677731124, guid: bdf0e10d17f93f5428c436e3be1ccb3e, type: 3}
-  m_PrefabInstance: {fileID: 2116972555}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2120125672 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8024201652361888721, guid: 3d9ef3095548d504b8cce61c53478392, type: 3}

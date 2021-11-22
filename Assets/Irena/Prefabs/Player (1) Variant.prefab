@@ -43,7 +43,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2030659975062613792, guid: fc9e06200503fa84e8890f3f58f7579f, type: 3}
       propertyPath: m_Name
-      value: Player (1)
+      value: Player (1) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2030659975062613792, guid: fc9e06200503fa84e8890f3f58f7579f, type: 3}
       propertyPath: m_IsActive
@@ -76,6 +76,10 @@ PrefabInstance:
     - target: {fileID: 2030659975062613802, guid: fc9e06200503fa84e8890f3f58f7579f, type: 3}
       propertyPath: MaxNumOfJumps
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030659975062613802, guid: fc9e06200503fa84e8890f3f58f7579f, type: 3}
+      propertyPath: JumpSpeed
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 2030659975062613803, guid: fc9e06200503fa84e8890f3f58f7579f, type: 3}
       propertyPath: m_LocalPosition.x

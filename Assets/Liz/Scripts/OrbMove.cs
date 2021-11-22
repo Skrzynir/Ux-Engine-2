@@ -8,13 +8,13 @@ public class OrbMove : MonoBehaviour
     public 
 
 
-    // Start is called before the first frame update
+    
     void Start()
     {
         floatUp = false;
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
         if (floatUp == true)

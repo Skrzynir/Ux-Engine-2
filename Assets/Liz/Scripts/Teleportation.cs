@@ -7,7 +7,7 @@ public class Teleportation : MonoBehaviour
     public Transform teleportTarget;
     public GameObject player;
 
-    private bool triggerEntered = false;
+    private bool triggerEntered = false;    
 
     void Update()
     {

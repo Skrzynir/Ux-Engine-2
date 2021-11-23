@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMoveVer2 : MonoBehaviour
 {
     public float speed = 10f;
-    public float jumpForce = 300f;
+    public float JumpSpeed = 2f;
 
     private float moveHori;
     private float moveVert;
@@ -32,7 +32,7 @@ public class PlayerMoveVer2 : MonoBehaviour
         PlayerRb = GetComponent<Rigidbody2D>();
         Ani = GetComponent<Animator>();
         SR = GetComponent<SpriteRenderer>();
-        JumpLandPS.Stop();
+        
         
         
     }
@@ -45,7 +45,7 @@ public class PlayerMoveVer2 : MonoBehaviour
         JumpLandPS.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - 3, -2);
 
 
-
+        PlayerRb.velocity = new Vector2(moveHori * speed, currVelo.y);
 
         if (Input.GetKeyDown(KeyCode.W))
         {
@@ -57,7 +57,7 @@ public class PlayerMoveVer2 : MonoBehaviour
             }
         }
 
-        PlayerRb.velocity = new Vector2(moveHori * speed, currVelo.y);
+        
 
         Ani.SetFloat("Speed", Mathf.Abs(moveHori));
 
@@ -74,7 +74,7 @@ public class PlayerMoveVer2 : MonoBehaviour
     void Jump()
     {
         numOfJumps--;
-        PlayerRb.AddForce(Vector2.up * jumpForce, ForceMode2D.Force);
+        PlayerRb.velocity = new Vector2(PlayerRb.velocity.x,JumpSpeed);
     }
 
     void BeginAirborne()

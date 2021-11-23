@@ -7,11 +7,11 @@ public class Teleportation : MonoBehaviour
     public Transform teleportTarget;
     public GameObject player;
 
-    private bool triggerEntered = false;
+    private bool triggerEntered = false;    
 
     void Update()
     {
-         if (Input.GetKeyDown(KeyCode.Space) && triggerEntered == true)
+         if (Input.GetKeyDown(KeyCode.E) && triggerEntered == true)
         {
             player.transform.position = teleportTarget.transform.position;            
         }

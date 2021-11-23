@@ -13,13 +13,4 @@ public class DoorDestroy : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
-/*
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.name.Contains("Door"))
-        {
-            Destroy(collision.gameObject);
-       */ }
-/*    }
 }
-*/

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8493114248768816568}
   - component: {fileID: 4810024159748073953}
   - component: {fileID: -3229559110291332907}
+  - component: {fileID: -5783128533907832324}
   m_Layer: 0
   m_Name: Switch
   m_TagString: Untagged
@@ -98,6 +99,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SwitchToPress: 0
   SwitchActive: 0
+  switchSR: {fileID: 0}
+  normal: {fileID: 0}
+  used: {fileID: 0}
 --- !u!61 &-3229559110291332907
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -124,3 +128,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 12.93, y: 11.22}
   m_EdgeRadius: 0
+--- !u!114 &-5783128533907832324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6778594583662335829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1051fee984dd01d43b9537c7d357fc05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pressE: {fileID: 0}

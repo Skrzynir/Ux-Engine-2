@@ -5,9 +5,7 @@ using UnityEngine.UI;
 
 public class ButtonPrompts : MonoBehaviour
 {    
-    public Image pressE;
-
-    Teleportation interact;
+    public Image pressE;    
 
     void Start()
     {
@@ -18,8 +16,7 @@ public class ButtonPrompts : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        pressE.enabled = true;
-        Debug.Log("enabled");
+        pressE.enabled = true;        
     }
 
     private void OnTriggerExit2D(Collider2D other)

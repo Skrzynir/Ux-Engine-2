@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1943036265512458013}
   - component: {fileID: -1064022260513287499}
   - component: {fileID: 8724417706305833476}
+  - component: {fileID: 321827249048760820}
   m_Layer: 0
   m_Name: Colour Portal
   m_TagString: Untagged
@@ -124,3 +125,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 13.95, y: 13.95}
   m_EdgeRadius: 0
+--- !u!114 &321827249048760820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4230092297341001986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1051fee984dd01d43b9537c7d357fc05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pressE: {fileID: 0}

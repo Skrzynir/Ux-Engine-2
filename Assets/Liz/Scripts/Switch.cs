@@ -9,10 +9,11 @@ public class Switch : MonoBehaviour
 
     SpriteRenderer SR;
     public Sprite GreySwitch;
+        
 
     private void Start()
     {
-        SR = GetComponent<SpriteRenderer>();
+        SR = GetComponent<SpriteRenderer>();        
     }
 
     void Update()
@@ -21,7 +22,7 @@ public class Switch : MonoBehaviour
         {
             SwitchActive = true;
             SR.sprite = GreySwitch;
-            SR.flipY = true;
+            SR.flipY = true;            
         }
 
     }
@@ -31,7 +32,7 @@ public class Switch : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {            
             SwitchToPress = true;
-
         }
+                
     }
 }

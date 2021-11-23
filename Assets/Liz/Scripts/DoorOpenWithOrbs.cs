@@ -34,8 +34,8 @@ public class DoorOpenWithOrbs : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player" && orb.HasOrb == true)
         {
-            Debug.Log("doorshouldopen");           
-            
+            Debug.Log("doorshouldopen");
+            Destroy(gameObject);
         }
     }
     

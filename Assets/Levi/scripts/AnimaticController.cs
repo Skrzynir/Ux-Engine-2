@@ -13,7 +13,15 @@ public class AnimaticController : MonoBehaviour
         Frame++;
         if(Frame == Sprites.Length)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            int targetScene = SceneManager.GetActiveScene().buildIndex + 1;
+            if(targetScene<SceneManager.sceneCountInBuildSettings)
+            {
+                SceneManager.LoadScene(targetScene);
+            }
+            else
+            {
+                SceneManager.LoadScene(0);
+            }   
             return;
         }
         IMG.sprite = Sprites[Frame];

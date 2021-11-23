@@ -5,9 +5,10 @@ using UnityEngine.UI;
 
 public class ButtonPrompts : MonoBehaviour
 {    
-    public Image pressE;    
+    public Image pressE;   
+    
 
-    void Start()
+    public void Start()
     {
         pressE.enabled = false;       
     }
@@ -16,7 +17,10 @@ public class ButtonPrompts : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        pressE.enabled = true;        
+       if (other.tag == "Player")
+        {
+            pressE.enabled = true;
+        }            
     }
 
     private void OnTriggerExit2D(Collider2D other)

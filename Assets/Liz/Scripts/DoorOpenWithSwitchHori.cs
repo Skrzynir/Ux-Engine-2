@@ -6,11 +6,13 @@ public class DoorOpenWithSwitchHori : MonoBehaviour
 {
     public GameObject SwitchObject;
     Switch press;
+    AudioSource AS;
 
 
     void Start()
     {
         press = SwitchObject.GetComponent<Switch>();
+        AS = GetComponent<AudioSource>();
     }
 
 
@@ -19,6 +21,7 @@ public class DoorOpenWithSwitchHori : MonoBehaviour
         if (press.SwitchActive == true)
         {
             gameObject.SetActive(false);
+            AS.Play();
 
         }
     }

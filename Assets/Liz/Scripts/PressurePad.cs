@@ -7,15 +7,26 @@ public class PressurePad : MonoBehaviour
                 
     public bool PadActive = false;
     public bool PadPress = false;
-        
-   
-    public void Update()
+
+    AudioSource AS;
+    private void Start()
     {
-        if (PadPress == true)
-        {            
-            transform.position = new Vector3(transform.position.x, transform.position.y - 0.25f * Time.deltaTime * 10, 0);
-            PadActive = true;
-        }                
+        AS = GetComponent<AudioSource>();
+    }
+
+
+   
+     IEnumerator ButtonPress()
+    {
+        PadActive = true;
+        AS.Play();
+        Vector3 targetPos = transform.position - new Vector3(0, 2f, 0);
+
+        while(transform.position != targetPos)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, targetPos, 2f * Time.deltaTime);
+                yield return new WaitForEndOfFrame();
+            }
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -23,6 +34,10 @@ public class PressurePad : MonoBehaviour
         if (collision.gameObject.tag == "Box")
         {
             PadPress = true;            
+            if (!PadActive)
+            {
+                StartCoroutine(ButtonPress());
+            }
         }
     }
 

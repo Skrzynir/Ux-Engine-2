@@ -6,11 +6,12 @@ public class DoorOpenWithPressurePad : MonoBehaviour
 {
     public GameObject PressurePad;
     PressurePad active;
-
+   
 
     void Start()
     {
         active = PressurePad.GetComponent<PressurePad>();
+        
     }
 
 
@@ -19,6 +20,7 @@ public class DoorOpenWithPressurePad : MonoBehaviour
         if (active.PadActive == true)
         {
             transform.position = new Vector3(transform.position.x, transform.position.y + 10 * Time.deltaTime, 0);
+            
 
         }
 

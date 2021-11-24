@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class ReSpawnVer2 : MonoBehaviour
 {
@@ -8,7 +9,8 @@ public class ReSpawnVer2 : MonoBehaviour
 
     public GameObject player;
     public GameObject spawnpoint;
-
+    public ParticleSystem particles;
+   
 
     void Update()
     {
@@ -16,6 +18,11 @@ public class ReSpawnVer2 : MonoBehaviour
         {
             player.transform.position = spawnpoint.transform.position;
             Alive = true;
+            particles.Play();
+            spawnpoint.GetComponent<AudioSource>().Play();
+
+           
+
         }
                 
     }

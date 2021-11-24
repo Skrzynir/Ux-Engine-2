@@ -11,16 +11,25 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Liz/Scenes/Level 1 Test Build 1.unity
     guid: 703eb3d588fcbfb4397c7322ac1420ca
+  - enabled: 0
+    path: Assets/Keegan/Menu/Menu.unity
+    guid: 0ca72337aefd6094296344b66dd0e1e1
   - enabled: 1
+    path: Assets/Liz/Scenes/Menu Test.unity
+    guid: 66156b64d9ca66a41a80d937b01ea35b
+  - enabled: 0
     path: Assets/Levi/Animatic.unity
     guid: 25e33a30df589ba4e920cef9dbcc11c2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Liz/Scenes/Level 1 Test Build 2.unity
     guid: 778ae48bfa81950459d7be5db410a5a8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Liz/Scenes/Level 2 Build 1.unity
     guid: 8402773d96bf83749b2a9b6cbec7764b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Liz/Scenes/Level 3 Build 1.unity
     guid: c5bb7a683328bc44aa33579e96639085
+  - enabled: 0
+    path: Assets/Levi/EndCredits.unity
+    guid: ab3a8d029ccbaa343acf2f1b6610c22c
   m_configObjects: {}

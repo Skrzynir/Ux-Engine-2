@@ -6,13 +6,16 @@ public class Switch : MonoBehaviour
 {
     public bool SwitchToPress = false;
     public bool SwitchActive = false;
+    AudioSource AS;
 
     SpriteRenderer SR;
     public Sprite GreySwitch;
+        
 
     private void Start()
     {
         SR = GetComponent<SpriteRenderer>();
+        AS = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -22,6 +25,7 @@ public class Switch : MonoBehaviour
             SwitchActive = true;
             SR.sprite = GreySwitch;
             SR.flipY = true;
+            AS.Play();
         }
 
     }
@@ -31,7 +35,7 @@ public class Switch : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {            
             SwitchToPress = true;
-
         }
+                
     }
 }

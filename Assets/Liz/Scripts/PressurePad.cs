@@ -8,14 +8,10 @@ public class PressurePad : MonoBehaviour
     public bool PadActive = false;
     public bool PadPress = false;
 
-    AudioSource AS;
-
-    public ParticleSystem PS;
+    //AudioSource AS;
     private void Start()
     {
-        AS = GetComponent<AudioSource>();
-       
-        
+        //AS = GetComponent<AudioSource>();
     }
 
 
@@ -23,7 +19,7 @@ public class PressurePad : MonoBehaviour
      IEnumerator ButtonPress()
     {
         PadActive = true;
-        AS.Play();
+        //AS.Play();
         Vector3 targetPos = transform.position - new Vector3(0, 2f, 0);
 
         while(transform.position != targetPos)

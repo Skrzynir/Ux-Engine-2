@@ -33533,6 +33533,7 @@ GameObject:
   - component: {fileID: 2056986499}
   - component: {fileID: 2056986498}
   - component: {fileID: 2056986497}
+  - component: {fileID: 2056986502}
   m_Layer: 0
   m_Name: RedOrb
   m_TagString: Orb
@@ -33650,6 +33651,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2056986502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056986496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1051fee984dd01d43b9537c7d357fc05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pressE: {fileID: 1770289799}
 --- !u!4 &2058022968 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4787981041796710787, guid: f0b6dc2f43b14c544bb0b6facc100fd0, type: 3}

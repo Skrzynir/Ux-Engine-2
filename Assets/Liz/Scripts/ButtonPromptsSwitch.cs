@@ -10,10 +10,13 @@ public class ButtonPromptsSwitch : MonoBehaviour
     Switch grey;
 
 
+
     public void Start()
     {
         Activate.enabled = false;
         grey = GetComponent<Switch>();
+        
+        
     }
 
 
@@ -25,6 +28,8 @@ public class ButtonPromptsSwitch : MonoBehaviour
         if (grey.SwitchActive == true)
         {
             Activate.enabled = false;
+            
+           
         }
     }
 

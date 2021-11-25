@@ -37,6 +37,7 @@ public class PressurePad : MonoBehaviour
             if (!PadActive)
             {
                 StartCoroutine(ButtonPress());
+                PS.Play();
             }
         }
     }

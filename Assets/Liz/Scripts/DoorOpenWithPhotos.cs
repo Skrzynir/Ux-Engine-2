@@ -4,35 +4,19 @@ using UnityEngine;
 
 public class DoorOpenWithPhotos : MonoBehaviour
 {
-    public GameObject player;
-    //PhotoCheck photo;
-    PhotoUIDisplay pho;
-    
-
-    public bool ColAll = false;
-
-
-    void Start()
-    {
-        //photo = player.GetComponent<PhotoCheck>();
-        pho = GetComponent<PhotoUIDisplay>();
-        
-    }
-
-    void Update()
-    {
-        if (pho.yellowP.enabled == true && pho.redP.enabled == true && pho.blueP.enabled == true)
-        {
-            ColAll = true;
-        }
-    }
-        
+    public int _requiredNumPhotos = 3;
+    public GameObject part;
    
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player" && ColAll == true)
+        if (collision.gameObject.tag == "Player")
         {
-            Debug.Log("doorshouldopen");
+            if(PhotoPickUp.NumPhotosCollected == _requiredNumPhotos)
+            {
+                Debug.Log("doorshouldopen");
+                Instantiate(part, transform.position, transform.rotation);
+                Destroy(gameObject);
+            }
         }
     }
 }

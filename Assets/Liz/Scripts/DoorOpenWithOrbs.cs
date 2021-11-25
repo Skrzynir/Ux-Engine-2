@@ -23,11 +23,7 @@ public class DoorOpenWithOrbs : MonoBehaviour
 
 
             }
-
-        if (orb.HasOrb == false)
-        {
-            
-        }
+                
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

@@ -9,9 +9,13 @@ public class PressurePad : MonoBehaviour
     public bool PadPress = false;
 
     AudioSource AS;
+
+    public ParticleSystem PS;
     private void Start()
     {
         AS = GetComponent<AudioSource>();
+       
+        
     }
 
 
@@ -37,6 +41,7 @@ public class PressurePad : MonoBehaviour
             if (!PadActive)
             {
                 StartCoroutine(ButtonPress());
+                PS.Play();
             }
         }
     }

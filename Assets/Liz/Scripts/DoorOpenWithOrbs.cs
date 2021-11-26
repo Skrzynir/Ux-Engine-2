@@ -21,7 +21,7 @@ public class DoorOpenWithOrbs : MonoBehaviour
             {
 
             PS.Play();
-            Debug.Log("doorcanopen");
+            
 
             }
                 
@@ -31,8 +31,8 @@ public class DoorOpenWithOrbs : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player" && orb.HasOrb == true)
         {
-            Debug.Log("doorshouldopen");
-           
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
 
         }
     }

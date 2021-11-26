@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DoorOpenWithOrbs : MonoBehaviour
 {
@@ -16,11 +17,8 @@ public class DoorOpenWithOrbs : MonoBehaviour
     void Update()
     {
         if (orb.HasOrb == true)
-            {
-            
-            Instantiate(doorParticle, transform.position, transform.rotation);
-            Debug.Log("doorcanopen");
-
+            {            
+            Instantiate(doorParticle, transform.position, transform.rotation);        
 
             }
                 
@@ -29,9 +27,9 @@ public class DoorOpenWithOrbs : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player" && orb.HasOrb == true)
-        {
-            Debug.Log("doorshouldopen");
-            Destroy(gameObject);
+        {          
+            
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
     

@@ -14,9 +14,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Keegan/Menu/Menu.unity
     guid: 0ca72337aefd6094296344b66dd0e1e1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Liz/Scenes/Menu Test.unity
     guid: 66156b64d9ca66a41a80d937b01ea35b
+  - enabled: 1
+    path: Assets/Liz/Scenes/MainMenu.unity
+    guid: e40f3af6b98427e4bb68c0061ffb7c63
   - enabled: 1
     path: Assets/Levi/Animatic.unity
     guid: 25e33a30df589ba4e920cef9dbcc11c2

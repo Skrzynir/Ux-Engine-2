@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class SceneChange : MonoBehaviour
 
 {
-    
+
 
     void OnTriggerEnter2D(Collider2D collision)
     {

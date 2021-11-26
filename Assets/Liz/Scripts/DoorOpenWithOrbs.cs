@@ -6,10 +6,11 @@ public class DoorOpenWithOrbs : MonoBehaviour
 {
     public GameObject player;
     OrbCheck orb;
-    public GameObject doorParticle;
+    public ParticleSystem PS;
     
     void Start()
     {
+       
         orb = player.GetComponent<OrbCheck>();
     }
 
@@ -17,8 +18,8 @@ public class DoorOpenWithOrbs : MonoBehaviour
     {
         if (orb.HasOrb == true)
             {
-            
-            Instantiate(doorParticle, transform.position, transform.rotation);
+
+            PS.Play();
             Debug.Log("doorcanopen");
 
 
@@ -31,7 +32,8 @@ public class DoorOpenWithOrbs : MonoBehaviour
         if (collision.gameObject.tag == "Player" && orb.HasOrb == true)
         {
             Debug.Log("doorshouldopen");
-            Destroy(gameObject);
+           
+
         }
     }
     

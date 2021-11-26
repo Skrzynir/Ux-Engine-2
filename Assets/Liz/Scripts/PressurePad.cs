@@ -8,6 +8,7 @@ public class PressurePad : MonoBehaviour
     public bool PadActive = false;
     public bool PadPress = false;
 
+
     //AudioSource AS;
     private void Start()
     {
@@ -37,7 +38,7 @@ public class PressurePad : MonoBehaviour
             if (!PadActive)
             {
                 StartCoroutine(ButtonPress());
-                PS.Play();
+                
             }
         }
     }

@@ -130,6 +130,102 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2216766846705387229, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216766846705387229, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216766846705387229, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216766846705387229, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641452579019178619, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641452579019178619, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641452579019178619, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641452579019178619, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686495970613953424, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686495970613953424, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686495970613953424, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686495970613953424, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4462340648185811039, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4462340648185811039, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4462340648185811039, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4462340648185811039, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4462340648689941161, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4462340648689941161, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4462340648689941161, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4462340648689941161, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5543482054840188769, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5543482054840188769, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5543482054840188769, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5543482054840188769, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5786492943762830611, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -229,6 +325,22 @@ PrefabInstance:
     - target: {fileID: 5786492943762830620, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
       propertyPath: m_Name
       value: Main Menu 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732882116813954759, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732882116813954759, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732882116813954759, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732882116813954759, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bf8774a69170b64d90188816bcc8743, type: 3}
@@ -444,7 +556,6 @@ GameObject:
   m_Component:
   - component: {fileID: 880823737}
   - component: {fileID: 880823736}
-  - component: {fileID: 880823735}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -452,14 +563,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &880823735
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 880823734}
-  m_Enabled: 1
 --- !u!20 &880823736
 Camera:
   m_ObjectHideFlags: 0

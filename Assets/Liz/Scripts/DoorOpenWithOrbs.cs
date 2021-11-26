@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DoorOpenWithOrbs : MonoBehaviour
 {
@@ -21,7 +22,6 @@ public class DoorOpenWithOrbs : MonoBehaviour
 
             PS.Play();
             Debug.Log("doorcanopen");
-
 
             }
                 

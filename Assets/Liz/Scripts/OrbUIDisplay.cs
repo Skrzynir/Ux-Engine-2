@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class OrbUIDisplay : MonoBehaviour
 {
@@ -17,7 +18,7 @@ public class OrbUIDisplay : MonoBehaviour
     OrbCollection orbR;
     OrbCollection orbB;
 
-
+    
 
     void Start()
     {
@@ -29,6 +30,7 @@ public class OrbUIDisplay : MonoBehaviour
         orbR = RedOrb.GetComponent<OrbCollection>();
         orbB = BlueOrb.GetComponent<OrbCollection>();
 
+        
 
     }
 
@@ -51,8 +53,8 @@ public class OrbUIDisplay : MonoBehaviour
         }
     }
 
-    private void Awake()
-    {
+   /* private void Awake()
+    {        
         DontDestroyOnLoad(this.gameObject);
-    }
+    }*/
 }

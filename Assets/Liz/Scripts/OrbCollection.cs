@@ -8,12 +8,15 @@ public class OrbCollection : MonoBehaviour
     public bool pass = false;
     OrbCheck orb;
     public bool collect = false;
-    AudioSource AS;
+    [SerializeField]
+    public AudioSource source;
+    public AudioClip orbget;
+    
 
     void Start()
     {
         orb = player.GetComponent<OrbCheck>();
-        AS = GetComponent<AudioSource>();
+       
     }
 
     private void Update()
@@ -23,7 +26,7 @@ public class OrbCollection : MonoBehaviour
             orb.HasOrb = true;
             collect = true;
             Destroy(gameObject);
-            AS.Play();
+            source.PlayOneShot(orbget);
             
         }
     }

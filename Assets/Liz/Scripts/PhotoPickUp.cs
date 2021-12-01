@@ -17,8 +17,7 @@ public class PhotoPickUp : MonoBehaviour
             GameObject newPhoto = Instantiate(photoPrefab, Vector3.zero, Quaternion.identity, PhotoGroup.transform);
             newPhoto.GetComponent<Image>().sprite = img.sprite;
             NumPhotosCollected++;
-            Destroy(gameObject);
-            Debug.Log("Picked");
+            Destroy(gameObject);            
 
         }
     }

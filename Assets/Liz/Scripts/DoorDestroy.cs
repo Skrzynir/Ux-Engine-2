@@ -11,7 +11,7 @@ public class DoorDestroy : MonoBehaviour
         if (collision.gameObject.name.Contains("Door"))
         {
             Destroy(collision.gameObject);
-            print("Destroyed");
+            
         }
     }
 

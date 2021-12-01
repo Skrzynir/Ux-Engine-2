@@ -6,22 +6,20 @@ public class Audio : MonoBehaviour
 {
     [SerializeField]
     public AudioClip steps;
-    public AudioClip collection;
+    public AudioClip switchAct;
     public AudioClip doorOpen;
 
     private AudioSource source;
 
     void Start()
     {
-        
+        source = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
-    void Update()
+   
+
+    public void playAudio(AudioClip clip)
     {
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            
-        }
+        source.PlayOneShot(clip);
     }
 }

@@ -2385,6 +2385,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 349371298}
   PS: {fileID: 2071969596}
+  source: {fileID: 818496726}
+  dooropen: {fileID: 8300000, guid: 2cb5efea28530c441bbd0c761f0532f8, type: 3}
+  doorshut: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
 --- !u!61 &181560579
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5853,7 +5856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6450413211312408422, guid: 9e322793866488b4f9917d4afabb6539, type: 3}
       propertyPath: m_SortingOrder
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7234269020076671133, guid: 9e322793866488b4f9917d4afabb6539, type: 3}
       propertyPath: m_Name
@@ -17904,7 +17907,6 @@ GameObject:
   - component: {fileID: 1511190009}
   - component: {fileID: 1511190008}
   - component: {fileID: 1511190013}
-  - component: {fileID: 1511190014}
   m_Layer: 0
   m_Name: YellowOrb
   m_TagString: Orb
@@ -17956,6 +17958,8 @@ MonoBehaviour:
   player: {fileID: 349371298}
   pass: 0
   collect: 0
+  source: {fileID: 818496726}
+  orbget: {fileID: 8300000, guid: 4045f0880b81e6a4cbffc7734156eeaf, type: 3}
 --- !u!212 &1511190011
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18035,102 +18039,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pressE: {fileID: 128097883}
---- !u!82 &1511190014
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511190007}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4df7292cc7798ea4da296a6b65b6a34e, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1001 &1518967685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21847,7 +21755,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6450413211312408422, guid: 9e322793866488b4f9917d4afabb6539, type: 3}
       propertyPath: m_SortingOrder
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7234269020076671133, guid: 9e322793866488b4f9917d4afabb6539, type: 3}
       propertyPath: m_Name
@@ -22384,7 +22292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6450413211312408422, guid: 9e322793866488b4f9917d4afabb6539, type: 3}
       propertyPath: m_SortingOrder
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7234269020076671133, guid: 9e322793866488b4f9917d4afabb6539, type: 3}
       propertyPath: m_Name
@@ -30186,7 +30094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6450413211312408422, guid: 9e322793866488b4f9917d4afabb6539, type: 3}
       propertyPath: m_SortingOrder
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7234269020076671133, guid: 9e322793866488b4f9917d4afabb6539, type: 3}
       propertyPath: m_Name

@@ -8,8 +8,12 @@ public class PressurePad : MonoBehaviour
     public bool PadActive = false;
     public bool PadPress = false;
 
+    
+    [SerializeField]
+    public AudioSource source;
+    public AudioClip hit;
 
-    //AudioSource AS;
+
     private void Start()
     {
         //AS = GetComponent<AudioSource>();
@@ -37,17 +41,10 @@ public class PressurePad : MonoBehaviour
             PadPress = true;            
             if (!PadActive)
             {
+                source.PlayOneShot(hit);
                 StartCoroutine(ButtonPress());
                 
             }
-        }
-    }
-
-    public void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Box")
-        {
-            PadPress = false;
         }
     }
 

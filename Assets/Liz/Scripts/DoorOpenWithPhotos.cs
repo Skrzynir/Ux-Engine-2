@@ -12,8 +12,7 @@ public class DoorOpenWithPhotos : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             if(PhotoPickUp.NumPhotosCollected == _requiredNumPhotos)
-            {
-                Debug.Log("doorshouldopen");
+            {                
                 Instantiate(part, transform.position, transform.rotation);
                 Destroy(gameObject);
             }

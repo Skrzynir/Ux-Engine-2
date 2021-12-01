@@ -5,10 +5,7 @@ using UnityEngine;
 public class OrbMove : MonoBehaviour
 {
     public bool floatUp = false;
-    public 
-
-
-    
+        
     void Start()
     {
         floatUp = false;

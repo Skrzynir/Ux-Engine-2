@@ -10,12 +10,14 @@ public class Switch : MonoBehaviour
 
     SpriteRenderer SR;
     public Sprite GreySwitch;
-        
+    [SerializeField]
+    public AudioSource source;
+    public AudioClip switchacti;
+
 
     private void Start()
     {
-        SR = GetComponent<SpriteRenderer>();
-       
+        SR = GetComponent<SpriteRenderer>();       
     }
 
     void Update()
@@ -25,14 +27,10 @@ public class Switch : MonoBehaviour
             SwitchActive = true;
             SR.sprite = GreySwitch;
             SR.flipY = true;
-           
-        }
-
-     
-
-       
-
+            source.PlayOneShot(switchacti);
+        }        
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")

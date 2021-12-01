@@ -6,7 +6,7 @@ public class Teleportation : MonoBehaviour
 {
     public Transform teleportTarget;
     public GameObject player;
-
+        
     AudioSource AS;
 
     private void Start()
@@ -23,7 +23,7 @@ public class Teleportation : MonoBehaviour
             player.transform.position = teleportTarget.transform.position;
             AS.Play();
             AudioVolume();
-            
+
         }
     }
 
@@ -42,13 +42,12 @@ public class Teleportation : MonoBehaviour
         if (AS.isPlaying == true)
         {
             StartCoroutine(Fade());
-            
         }
     }
 
     IEnumerator Fade()
     {
-        for (float AVolume =  1; AVolume >0.5; AVolume -= 0.1f)
+        for (float AVolume = 1; AVolume > 0.5; AVolume -= 0.1f)
         {
             AS.volume = AVolume;
             yield return null;

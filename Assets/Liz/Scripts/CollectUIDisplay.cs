@@ -7,8 +7,6 @@ public class CollectUIDisplay : MonoBehaviour
 {
     public Image OrbtoCollect;
 
-
-
     void Start()
     {
         OrbtoCollect.enabled = true;

@@ -11,9 +11,7 @@ public class ButtonPrompts : MonoBehaviour
     public void Start()
     {
         pressE.enabled = false;       
-    }
-
-   
+    }   
 
     private void OnTriggerEnter2D(Collider2D other)
     {

@@ -6,7 +6,6 @@ public class OrbCheck : MonoBehaviour
 {
     public bool HasOrb = false;
     public bool Trigger = false;
-
     
     public void Update()
     {
@@ -15,6 +14,7 @@ public class OrbCheck : MonoBehaviour
             HasOrb = true;
         }
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Orb")

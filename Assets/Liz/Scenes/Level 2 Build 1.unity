@@ -1806,6 +1806,14 @@ PrefabInstance:
       propertyPath: Activate
       value: 
       objectReference: {fileID: 367100199}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 632005592}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: switchacti
+      value: 
+      objectReference: {fileID: 8300000, guid: 4df7292cc7798ea4da296a6b65b6a34e, type: 3}
     - target: {fileID: 6778594583662335829, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
       propertyPath: m_Name
       value: SwitchC1
@@ -2079,6 +2087,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 254170968}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 632005592}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: -68.94486
@@ -2135,7 +2155,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Switch Door (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2905049293121042861, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
 --- !u!4 &125403158 stripped
 Transform:
@@ -3700,6 +3721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+    - {fileID: 2905049293121042861, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
 --- !u!4 &254561083 stripped
 Transform:
@@ -3724,9 +3746,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PressurePad: {fileID: 144616459}
-  source: {fileID: 0}
-  dooropen: {fileID: 0}
-  doorshut: {fileID: 0}
+  source: {fileID: 632005592}
+  dooropen: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+  doorshut: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
 --- !u!1 &255883607
 GameObject:
   m_ObjectHideFlags: 0
@@ -4374,6 +4396,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 976927290}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 632005592}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: -35.444862
@@ -4430,7 +4464,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Switch Door (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2905049293121042861, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
 --- !u!4 &292319241 stripped
 Transform:
@@ -5269,6 +5304,14 @@ PrefabInstance:
       propertyPath: SwitchToPress
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 632005592}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: switchacti
+      value: 
+      objectReference: {fileID: 8300000, guid: 4df7292cc7798ea4da296a6b65b6a34e, type: 3}
     - target: {fileID: 6778594583662335829, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
       propertyPath: m_Name
       value: SwitchB1
@@ -6275,6 +6318,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 691781767}
+    - target: {fileID: 3735249719555321193, guid: 5eb4f384a82600040bf65b5122d93db2, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 632005592}
+    - target: {fileID: 3735249719555321193, guid: 5eb4f384a82600040bf65b5122d93db2, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 3735249719555321193, guid: 5eb4f384a82600040bf65b5122d93db2, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 4797230774150506315, guid: 5eb4f384a82600040bf65b5122d93db2, type: 3}
       propertyPath: m_Name
       value: Switch Door (8)
@@ -9308,6 +9363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+    - {fileID: 2905049293121042861, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
 --- !u!4 &646247349 stripped
 Transform:
@@ -9332,9 +9388,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PressurePad: {fileID: 1263187098}
-  source: {fileID: 0}
-  dooropen: {fileID: 0}
-  doorshut: {fileID: 0}
+  source: {fileID: 632005592}
+  dooropen: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+  doorshut: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
 --- !u!4 &646444207 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8024201652361888721, guid: 3d9ef3095548d504b8cce61c53478392, type: 3}
@@ -10056,6 +10112,14 @@ PrefabInstance:
       propertyPath: Activate
       value: 
       objectReference: {fileID: 367100199}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 632005592}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: switchacti
+      value: 
+      objectReference: {fileID: 8300000, guid: 4df7292cc7798ea4da296a6b65b6a34e, type: 3}
     - target: {fileID: 6778594583662335829, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
       propertyPath: m_Name
       value: SwitchC2
@@ -12139,6 +12203,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SwitchObject: {fileID: 1647549353}
+  source: {fileID: 632005592}
+  dooropen: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+  doorshut: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
 --- !u!1001 &833045860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12401,6 +12468,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 254170968}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 632005592}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: -68.94486
@@ -12552,6 +12631,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SwitchObject: {fileID: 1647549353}
+  source: {fileID: 632005592}
+  dooropen: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+  doorshut: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
 --- !u!1001 &866626487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15112,6 +15194,14 @@ PrefabInstance:
       propertyPath: Activate
       value: 
       objectReference: {fileID: 367100199}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 632005592}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: switchacti
+      value: 
+      objectReference: {fileID: 8300000, guid: 4df7292cc7798ea4da296a6b65b6a34e, type: 3}
     - target: {fileID: 6778594583662335829, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
       propertyPath: m_Name
       value: SwitchB2
@@ -15566,6 +15656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+    - {fileID: 2905049293121042861, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
 --- !u!4 &1002565710 stripped
 Transform:
@@ -15799,6 +15890,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+    - {fileID: 2905049293121042861, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
 --- !u!4 &1023776412 stripped
 Transform:
@@ -15823,9 +15915,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PressurePad: {fileID: 144616459}
-  source: {fileID: 0}
-  dooropen: {fileID: 0}
-  doorshut: {fileID: 0}
+  source: {fileID: 632005592}
+  dooropen: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+  doorshut: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
 --- !u!1001 &1028222156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16252,6 +16344,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SwitchObject: {fileID: 691781767}
+  source: {fileID: 632005592}
+  dooropen: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+  doorshut: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
 --- !u!1 &1058776958
 GameObject:
   m_ObjectHideFlags: 0
@@ -17102,6 +17197,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 976927290}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 632005592}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: -35.444862
@@ -19450,6 +19557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+    - {fileID: 2905049293121042861, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
 --- !u!4 &1276956642 stripped
 Transform:
@@ -19474,9 +19582,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PressurePad: {fileID: 144616459}
-  source: {fileID: 0}
-  dooropen: {fileID: 0}
-  doorshut: {fileID: 0}
+  source: {fileID: 632005592}
+  dooropen: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+  doorshut: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
 --- !u!1001 &1281957911
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28264,6 +28372,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+    - {fileID: 2905049293121042861, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
 --- !u!4 &1551209114 stripped
 Transform:
@@ -29247,6 +29356,14 @@ PrefabInstance:
       propertyPath: Activate
       value: 
       objectReference: {fileID: 367100199}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 632005592}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: switchacti
+      value: 
+      objectReference: {fileID: 8300000, guid: 4df7292cc7798ea4da296a6b65b6a34e, type: 3}
     - target: {fileID: 6778594583662335829, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
       propertyPath: m_Name
       value: SwitchC3
@@ -34909,6 +35026,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SwitchObject: {fileID: 691781767}
+  source: {fileID: 632005592}
+  dooropen: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+  doorshut: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
 --- !u!1001 &1043018250783009649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34985,6 +35105,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 691781767}
+    - target: {fileID: 3735249719555321193, guid: 5eb4f384a82600040bf65b5122d93db2, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 632005592}
+    - target: {fileID: 3735249719555321193, guid: 5eb4f384a82600040bf65b5122d93db2, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 3735249719555321193, guid: 5eb4f384a82600040bf65b5122d93db2, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 4797230774150506315, guid: 5eb4f384a82600040bf65b5122d93db2, type: 3}
       propertyPath: m_Name
       value: Switch Door (8)

@@ -2273,6 +2273,14 @@ PrefabInstance:
       propertyPath: teleportTarget
       value: 
       objectReference: {fileID: 1587301963}
+    - target: {fileID: -1064022260513287499, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 818496726}
+    - target: {fileID: -1064022260513287499, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: port
+      value: 
+      objectReference: {fileID: 8300000, guid: 396b010338c481d4f8a79c327a98e140, type: 3}
     - target: {fileID: 321827249048760820, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
       propertyPath: pressE
       value: 
@@ -2328,6 +2336,10 @@ PrefabInstance:
     - target: {fileID: 4230092297341001986, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
       propertyPath: m_Name
       value: Colour Portal
+      objectReference: {fileID: 0}
+    - target: {fileID: 4735664255168002115, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
@@ -4653,6 +4665,14 @@ PrefabInstance:
       propertyPath: particles
       value: 
       objectReference: {fileID: 892880320}
+    - target: {fileID: 1912617315657905868, guid: 687f30e84d582cc4399ff2c523d67f29, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 818496726}
+    - target: {fileID: 1912617315657905868, guid: 687f30e84d582cc4399ff2c523d67f29, type: 3}
+      propertyPath: spawn
+      value: 
+      objectReference: {fileID: 8300000, guid: 78ae280077360eb4db8b6c1186915421, type: 3}
     - target: {fileID: 7627950380638579261, guid: 687f30e84d582cc4399ff2c523d67f29, type: 3}
       propertyPath: m_Name
       value: Hazard_New (1)
@@ -4883,6 +4903,14 @@ PrefabInstance:
       propertyPath: teleportTarget
       value: 
       objectReference: {fileID: 1112472763}
+    - target: {fileID: -1064022260513287499, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 818496726}
+    - target: {fileID: -1064022260513287499, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: port
+      value: 
+      objectReference: {fileID: 8300000, guid: 396b010338c481d4f8a79c327a98e140, type: 3}
     - target: {fileID: 321827249048760820, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
       propertyPath: pressE
       value: 
@@ -4939,6 +4967,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4735664255168002115, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
 --- !u!1001 &396373183
@@ -4948,6 +4980,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 226796094}
     m_Modifications:
+    - target: {fileID: -7571024692266227784, guid: c7715175ed162de4594c595a2fb5433a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 47055418094907196, guid: c7715175ed162de4594c595a2fb5433a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 395.89
@@ -7394,6 +7430,14 @@ PrefabInstance:
       propertyPath: teleportTarget
       value: 
       objectReference: {fileID: 230195569}
+    - target: {fileID: -1064022260513287499, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 818496726}
+    - target: {fileID: -1064022260513287499, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: port
+      value: 
+      objectReference: {fileID: 8300000, guid: 396b010338c481d4f8a79c327a98e140, type: 3}
     - target: {fileID: 321827249048760820, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
       propertyPath: pressE
       value: 
@@ -7450,6 +7494,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Colour Portal (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4735664255168002115, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
 --- !u!1001 &606512539
@@ -7467,6 +7515,14 @@ PrefabInstance:
       propertyPath: teleportTarget
       value: 
       objectReference: {fileID: 1758369293}
+    - target: {fileID: -1064022260513287499, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 818496726}
+    - target: {fileID: -1064022260513287499, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: port
+      value: 
+      objectReference: {fileID: 8300000, guid: 396b010338c481d4f8a79c327a98e140, type: 3}
     - target: {fileID: 321827249048760820, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
       propertyPath: pressE
       value: 
@@ -7526,6 +7582,10 @@ PrefabInstance:
     - target: {fileID: 4230092297341001986, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4735664255168002115, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
@@ -11375,6 +11435,14 @@ PrefabInstance:
       propertyPath: teleportTarget
       value: 
       objectReference: {fileID: 883576222}
+    - target: {fileID: -1064022260513287499, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 818496726}
+    - target: {fileID: -1064022260513287499, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: port
+      value: 
+      objectReference: {fileID: 8300000, guid: 396b010338c481d4f8a79c327a98e140, type: 3}
     - target: {fileID: 321827249048760820, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
       propertyPath: pressE
       value: 
@@ -11426,6 +11494,10 @@ PrefabInstance:
     - target: {fileID: 4230092297341001986, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
       propertyPath: m_Name
       value: Colour Portal
+      objectReference: {fileID: 0}
+    - target: {fileID: 4735664255168002115, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
@@ -12190,6 +12262,14 @@ PrefabInstance:
       propertyPath: teleportTarget
       value: 
       objectReference: {fileID: 560442868}
+    - target: {fileID: -1064022260513287499, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 818496726}
+    - target: {fileID: -1064022260513287499, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: port
+      value: 
+      objectReference: {fileID: 8300000, guid: 396b010338c481d4f8a79c327a98e140, type: 3}
     - target: {fileID: 321827249048760820, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
       propertyPath: pressE
       value: 
@@ -12241,6 +12321,10 @@ PrefabInstance:
     - target: {fileID: 4230092297341001986, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
       propertyPath: m_Name
       value: Colour Portal (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4735664255168002115, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
@@ -14660,6 +14744,14 @@ PrefabInstance:
       propertyPath: particles
       value: 
       objectReference: {fileID: 649595551}
+    - target: {fileID: 1912617315657905868, guid: 687f30e84d582cc4399ff2c523d67f29, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 818496726}
+    - target: {fileID: 1912617315657905868, guid: 687f30e84d582cc4399ff2c523d67f29, type: 3}
+      propertyPath: spawn
+      value: 
+      objectReference: {fileID: 8300000, guid: 78ae280077360eb4db8b6c1186915421, type: 3}
     - target: {fileID: 7627950380638579261, guid: 687f30e84d582cc4399ff2c523d67f29, type: 3}
       propertyPath: m_Name
       value: Hazard_New
@@ -15497,6 +15589,14 @@ PrefabInstance:
       propertyPath: particles
       value: 
       objectReference: {fileID: 1215316036}
+    - target: {fileID: 1912617315657905868, guid: 687f30e84d582cc4399ff2c523d67f29, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 818496726}
+    - target: {fileID: 1912617315657905868, guid: 687f30e84d582cc4399ff2c523d67f29, type: 3}
+      propertyPath: spawn
+      value: 
+      objectReference: {fileID: 8300000, guid: 78ae280077360eb4db8b6c1186915421, type: 3}
     - target: {fileID: 7627950380638579261, guid: 687f30e84d582cc4399ff2c523d67f29, type: 3}
       propertyPath: m_Name
       value: Hazard_New (1)
@@ -16050,6 +16150,14 @@ PrefabInstance:
       propertyPath: particles
       value: 
       objectReference: {fileID: 1215316036}
+    - target: {fileID: 1912617315657905868, guid: 687f30e84d582cc4399ff2c523d67f29, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 818496726}
+    - target: {fileID: 1912617315657905868, guid: 687f30e84d582cc4399ff2c523d67f29, type: 3}
+      propertyPath: spawn
+      value: 
+      objectReference: {fileID: 8300000, guid: 78ae280077360eb4db8b6c1186915421, type: 3}
     - target: {fileID: 7627950380638579261, guid: 687f30e84d582cc4399ff2c523d67f29, type: 3}
       propertyPath: m_Name
       value: Hazard_New (2)
@@ -16652,6 +16760,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 226796094}
     m_Modifications:
+    - target: {fileID: -7571024692266227784, guid: c7715175ed162de4594c595a2fb5433a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 47055418094907196, guid: c7715175ed162de4594c595a2fb5433a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -151.43
@@ -22013,6 +22125,14 @@ PrefabInstance:
       propertyPath: teleportTarget
       value: 
       objectReference: {fileID: 1159791887}
+    - target: {fileID: -1064022260513287499, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 818496726}
+    - target: {fileID: -1064022260513287499, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: port
+      value: 
+      objectReference: {fileID: 8300000, guid: 396b010338c481d4f8a79c327a98e140, type: 3}
     - target: {fileID: 321827249048760820, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
       propertyPath: pressE
       value: 
@@ -22068,6 +22188,10 @@ PrefabInstance:
     - target: {fileID: 4230092297341001986, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
       propertyPath: m_Name
       value: Colour Portal (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4735664255168002115, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
@@ -22434,6 +22558,14 @@ PrefabInstance:
       propertyPath: particles
       value: 
       objectReference: {fileID: 1413190024}
+    - target: {fileID: 1912617315657905868, guid: 687f30e84d582cc4399ff2c523d67f29, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 818496726}
+    - target: {fileID: 1912617315657905868, guid: 687f30e84d582cc4399ff2c523d67f29, type: 3}
+      propertyPath: spawn
+      value: 
+      objectReference: {fileID: 8300000, guid: 78ae280077360eb4db8b6c1186915421, type: 3}
     - target: {fileID: 7627950380638579261, guid: 687f30e84d582cc4399ff2c523d67f29, type: 3}
       propertyPath: m_Name
       value: Hazard_New
@@ -23200,6 +23332,14 @@ PrefabInstance:
       propertyPath: teleportTarget
       value: 
       objectReference: {fileID: 1277146728}
+    - target: {fileID: -1064022260513287499, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 818496726}
+    - target: {fileID: -1064022260513287499, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: port
+      value: 
+      objectReference: {fileID: 8300000, guid: 396b010338c481d4f8a79c327a98e140, type: 3}
     - target: {fileID: 321827249048760820, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
       propertyPath: pressE
       value: 
@@ -23251,6 +23391,10 @@ PrefabInstance:
     - target: {fileID: 4230092297341001986, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
       propertyPath: m_Name
       value: Colour Portal (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4735664255168002115, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab13e7ade2a7ec4b9f930081a12d490, type: 3}
@@ -23867,6 +24011,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 226796094}
     m_Modifications:
+    - target: {fileID: -7571024692266227784, guid: c7715175ed162de4594c595a2fb5433a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 47055418094907196, guid: c7715175ed162de4594c595a2fb5433a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 248
@@ -29975,6 +30123,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 226796094}
     m_Modifications:
+    - target: {fileID: -7571024692266227784, guid: c7715175ed162de4594c595a2fb5433a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 47055418094907196, guid: c7715175ed162de4594c595a2fb5433a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -206.38

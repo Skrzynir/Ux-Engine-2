@@ -8,6 +8,9 @@ public class PhotoPickUp : MonoBehaviour
     public GameObject PhotoGroup;
     public static int NumPhotosCollected;
     public bool pass;
+    [SerializeField]
+    public AudioSource source;
+    public AudioClip orbget;
 
     private void Update()
     {
@@ -17,8 +20,8 @@ public class PhotoPickUp : MonoBehaviour
             GameObject newPhoto = Instantiate(photoPrefab, Vector3.zero, Quaternion.identity, PhotoGroup.transform);
             newPhoto.GetComponent<Image>().sprite = img.sprite;
             NumPhotosCollected++;
-            Destroy(gameObject);            
-
+            Destroy(gameObject);
+            source.PlayOneShot(orbget);
         }
     }
     void OnTriggerEnter2D(Collider2D other)

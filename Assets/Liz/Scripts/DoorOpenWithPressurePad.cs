@@ -14,8 +14,7 @@ public class DoorOpenWithPressurePad : MonoBehaviour
 
     void Start()
     {
-        active = PressurePad.GetComponent<PressurePad>();
-        
+        active = PressurePad.GetComponent<PressurePad>();        
     }
 
 
@@ -26,7 +25,6 @@ public class DoorOpenWithPressurePad : MonoBehaviour
             transform.position = new Vector3(transform.position.x, transform.position.y + 10 * Time.deltaTime, 0);
             source.PlayOneShot(dooropen);
         }
-
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

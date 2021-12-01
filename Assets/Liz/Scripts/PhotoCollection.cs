@@ -10,7 +10,6 @@ public class PhotoCollection : MonoBehaviour
     public bool collect = false;
 
 
-
     void Start()
     {
         photo = player.GetComponent<PhotoCheck>();
@@ -19,11 +18,9 @@ public class PhotoCollection : MonoBehaviour
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && pass == true)
-        {
-            //photo.HasPhoto = true;
+        {            
             collect = true;
             Destroy(gameObject);
-
         }
     }
 

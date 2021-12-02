@@ -31,10 +31,7 @@ public class PlayerMoveVer2 : MonoBehaviour
     {
         PlayerRb = GetComponent<Rigidbody2D>();
         Ani = GetComponent<Animator>();
-        SR = GetComponent<SpriteRenderer>();
-        isAirborne = false;
-        
-        
+        SR = GetComponent<SpriteRenderer>();   
     }
 
     void Update()

@@ -661,6 +661,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 1077486154}
+    - target: {fileID: 3735249719555321193, guid: 5eb4f384a82600040bf65b5122d93db2, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 3735249719555321193, guid: 5eb4f384a82600040bf65b5122d93db2, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 3735249719555321193, guid: 5eb4f384a82600040bf65b5122d93db2, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 4797230774150506315, guid: 5eb4f384a82600040bf65b5122d93db2, type: 3}
       propertyPath: m_Name
       value: Switch Door Horizontal
@@ -1013,6 +1025,18 @@ PrefabInstance:
       propertyPath: PressurePad
       value: 
       objectReference: {fileID: 941573521}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 4599502324688254978, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
       propertyPath: m_LocalPosition.x
       value: 26.96
@@ -1390,6 +1414,14 @@ PrefabInstance:
       propertyPath: Activate
       value: 
       objectReference: {fileID: 1371220828}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: switchacti
+      value: 
+      objectReference: {fileID: 8300000, guid: 4df7292cc7798ea4da296a6b65b6a34e, type: 3}
     - target: {fileID: 6778594583662335829, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
       propertyPath: m_Name
       value: Switch (1)
@@ -1540,6 +1572,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 194640717}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: 110.8
@@ -2399,6 +2443,14 @@ PrefabInstance:
       propertyPath: PS
       value: 
       objectReference: {fileID: 857741061}
+    - target: {fileID: 7182532142105556858, guid: 995d0656f285cd74cbdd0432ebd77be9, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 7182532142105556858, guid: 995d0656f285cd74cbdd0432ebd77be9, type: 3}
+      propertyPath: hit
+      value: 
+      objectReference: {fileID: 8300000, guid: 0301f22bd4fd3ef47ace258ebc1347c9, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 995d0656f285cd74cbdd0432ebd77be9, type: 3}
 --- !u!4 &150713540 stripped
@@ -5194,6 +5246,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 310117342}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: 67.88914
@@ -5341,6 +5405,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 2022302175}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: 257.3
@@ -6384,6 +6460,14 @@ PrefabInstance:
       propertyPath: PS
       value: 
       objectReference: {fileID: 913206282}
+    - target: {fileID: 7182532142105556858, guid: 995d0656f285cd74cbdd0432ebd77be9, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 7182532142105556858, guid: 995d0656f285cd74cbdd0432ebd77be9, type: 3}
+      propertyPath: hit
+      value: 
+      objectReference: {fileID: 8300000, guid: 0301f22bd4fd3ef47ace258ebc1347c9, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 995d0656f285cd74cbdd0432ebd77be9, type: 3}
 --- !u!1001 &386935580
@@ -8558,6 +8642,18 @@ PrefabInstance:
       propertyPath: PressurePad
       value: 
       objectReference: {fileID: 284494779}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 4599502324688254978, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32.42
@@ -9538,6 +9634,14 @@ PrefabInstance:
       propertyPath: Activate
       value: 
       objectReference: {fileID: 1371220828}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: switchacti
+      value: 
+      objectReference: {fileID: 8300000, guid: 4df7292cc7798ea4da296a6b65b6a34e, type: 3}
     - target: {fileID: 6778594583662335829, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
       propertyPath: m_Name
       value: Switch (6)
@@ -9986,6 +10090,18 @@ PrefabInstance:
       propertyPath: PressurePad
       value: 
       objectReference: {fileID: 284494779}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 4599502324688254978, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.6
@@ -10578,6 +10694,14 @@ PrefabInstance:
       propertyPath: PS
       value: 
       objectReference: {fileID: 412016620}
+    - target: {fileID: 7182532142105556858, guid: 995d0656f285cd74cbdd0432ebd77be9, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 7182532142105556858, guid: 995d0656f285cd74cbdd0432ebd77be9, type: 3}
+      propertyPath: hit
+      value: 
+      objectReference: {fileID: 8300000, guid: 0301f22bd4fd3ef47ace258ebc1347c9, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 995d0656f285cd74cbdd0432ebd77be9, type: 3}
 --- !u!4 &569350696 stripped
@@ -11086,6 +11210,14 @@ PrefabInstance:
       propertyPath: Activate
       value: 
       objectReference: {fileID: 1371220828}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: switchacti
+      value: 
+      objectReference: {fileID: 8300000, guid: 4df7292cc7798ea4da296a6b65b6a34e, type: 3}
     - target: {fileID: 6778594583662335829, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
       propertyPath: m_Name
       value: Switch (2)
@@ -12879,6 +13011,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 2022302175}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: 257.3
@@ -14167,6 +14311,8 @@ MonoBehaviour:
   photoPrefab: {fileID: 7306722988789536670, guid: 642c35f1e4c4e7b46b43913f5bb739f3, type: 3}
   PhotoGroup: {fileID: 64840088}
   pass: 0
+  source: {fileID: 0}
+  orbget: {fileID: 0}
 --- !u!1001 &740232738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17103,6 +17249,18 @@ PrefabInstance:
       propertyPath: PressurePad
       value: 
       objectReference: {fileID: 412255618}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 4599502324688254978, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
       propertyPath: m_LocalPosition.x
       value: 161.9
@@ -18504,6 +18662,18 @@ PrefabInstance:
       propertyPath: PressurePad
       value: 
       objectReference: {fileID: 941573521}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 4599502324688254978, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.599998
@@ -18744,6 +18914,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 600157609}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: 216.2
@@ -21332,6 +21514,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 204017452}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: 307.1
@@ -22277,6 +22471,18 @@ PrefabInstance:
       propertyPath: PressurePad
       value: 
       objectReference: {fileID: 941573521}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 4599502324688254978, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.599998
@@ -24133,6 +24339,14 @@ PrefabInstance:
       propertyPath: Activate
       value: 
       objectReference: {fileID: 1371220828}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: switchacti
+      value: 
+      objectReference: {fileID: 8300000, guid: 4df7292cc7798ea4da296a6b65b6a34e, type: 3}
     - target: {fileID: 6778594583662335829, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
       propertyPath: m_Name
       value: Switch
@@ -25336,6 +25550,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 204017452}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: 307.1
@@ -27611,6 +27837,14 @@ PrefabInstance:
       propertyPath: Activate
       value: 
       objectReference: {fileID: 1371220828}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: switchacti
+      value: 
+      objectReference: {fileID: 8300000, guid: 4df7292cc7798ea4da296a6b65b6a34e, type: 3}
     - target: {fileID: 6778594583662335829, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
       propertyPath: m_Name
       value: Switch (3)
@@ -28197,6 +28431,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 310117342}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: 67.88914
@@ -28389,6 +28635,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 320285141}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: 419.8
@@ -28782,6 +29040,18 @@ PrefabInstance:
       propertyPath: PressurePad
       value: 
       objectReference: {fileID: 284494779}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 4599502324688254978, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32.42
@@ -30207,6 +30477,18 @@ PrefabInstance:
       propertyPath: PressurePad
       value: 
       objectReference: {fileID: 941573521}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 4599502324688254978, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
       propertyPath: m_LocalPosition.x
       value: 26.96
@@ -30351,6 +30633,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 600157609}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: 216.2
@@ -31446,6 +31740,14 @@ PrefabInstance:
       propertyPath: Activate
       value: 
       objectReference: {fileID: 1371220828}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: switchacti
+      value: 
+      objectReference: {fileID: 8300000, guid: 4df7292cc7798ea4da296a6b65b6a34e, type: 3}
     - target: {fileID: 6778594583662335829, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
       propertyPath: m_Name
       value: Switch (5)
@@ -31516,6 +31818,14 @@ PrefabInstance:
       propertyPath: Activate
       value: 
       objectReference: {fileID: 1371220828}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4810024159748073953, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
+      propertyPath: switchacti
+      value: 
+      objectReference: {fileID: 8300000, guid: 4df7292cc7798ea4da296a6b65b6a34e, type: 3}
     - target: {fileID: 6778594583662335829, guid: 301ae5850f4e0084e9c39eed0d52c6cc, type: 3}
       propertyPath: m_Name
       value: Switch (4)
@@ -31986,6 +32296,18 @@ PrefabInstance:
       propertyPath: PressurePad
       value: 
       objectReference: {fileID: 941573521}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 4599502324688254978, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32.42
@@ -32229,6 +32551,8 @@ MonoBehaviour:
   photoPrefab: {fileID: 7306722988789536670, guid: 642c35f1e4c4e7b46b43913f5bb739f3, type: 3}
   PhotoGroup: {fileID: 64840088}
   pass: 0
+  source: {fileID: 0}
+  orbget: {fileID: 0}
 --- !u!1001 &1643425863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33212,6 +33536,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 2022302175}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: 216.2
@@ -34564,6 +34900,18 @@ PrefabInstance:
       propertyPath: PressurePad
       value: 
       objectReference: {fileID: 941573521}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 4599502324688254978, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32.42
@@ -35282,6 +35630,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 1077486154}
+    - target: {fileID: 3735249719555321193, guid: 5eb4f384a82600040bf65b5122d93db2, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 3735249719555321193, guid: 5eb4f384a82600040bf65b5122d93db2, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 3735249719555321193, guid: 5eb4f384a82600040bf65b5122d93db2, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 4797230774150506315, guid: 5eb4f384a82600040bf65b5122d93db2, type: 3}
       propertyPath: m_Name
       value: Switch Door Horizontal
@@ -36658,6 +37018,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _requiredNumPhotos: 3
   part: {fileID: 4778425878073682387, guid: 1888037d5e9485342a4748e798fbaf14, type: 3}
+  source: {fileID: 504150528}
+  dooropen: {fileID: 8300000, guid: 2cb5efea28530c441bbd0c761f0532f8, type: 3}
+  doorshut: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
 --- !u!212 &1858247041
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37364,6 +37727,18 @@ PrefabInstance:
       propertyPath: PressurePad
       value: 
       objectReference: {fileID: 284494779}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 4599502324688254978, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.6
@@ -37635,6 +38010,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 320285141}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: 419.8
@@ -38804,6 +39191,8 @@ MonoBehaviour:
   photoPrefab: {fileID: 7306722988789536670, guid: 642c35f1e4c4e7b46b43913f5bb739f3, type: 3}
   PhotoGroup: {fileID: 64840088}
   pass: 0
+  source: {fileID: 0}
+  orbget: {fileID: 0}
 --- !u!4 &1936768060 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8024201652361888721, guid: 3d9ef3095548d504b8cce61c53478392, type: 3}
@@ -39006,6 +39395,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 194640717}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: 110.8
@@ -47176,6 +47577,18 @@ PrefabInstance:
       propertyPath: PressurePad
       value: 
       objectReference: {fileID: 412255618}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 4592555913106856140, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 4599502324688254978, guid: 19cf18e794612f4408acaf9a7eb6b687, type: 3}
       propertyPath: m_LocalPosition.x
       value: 161.9
@@ -47491,6 +47904,18 @@ PrefabInstance:
       propertyPath: SwitchObject
       value: 
       objectReference: {fileID: 2022302175}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 504150528}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: dooropen
+      value: 
+      objectReference: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+    - target: {fileID: 2216554114018206156, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
+      propertyPath: doorshut
+      value: 
+      objectReference: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
     - target: {fileID: 5477500704917225196, guid: a4e16d974bc0d6e45bc19ca59da2a206, type: 3}
       propertyPath: m_LocalPosition.x
       value: 216.2

@@ -7,7 +7,7 @@ public class PhotoCheck : MonoBehaviour
     public bool HasPhotoY = false;
     public bool HasPhotoR = false;
     public bool HasPhotoB = false;
-    //public bool HasPhoto = false;
+    
     public bool TrigY = false;
     public bool TrigR = false;
     public bool TrigB = false;
@@ -27,18 +27,12 @@ public class PhotoCheck : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E) && TrigB == true)
         {
-            HasPhotoB = true;
-            
+            HasPhotoB = true;            
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
-    {
-        /*if (collision.gameObject.tag == "Photo")
-        {
-            Trig = true;
-        }*/
-
+    {        
         if (collision.gameObject.name == "PhotoY")
         {
             TrigY = true;

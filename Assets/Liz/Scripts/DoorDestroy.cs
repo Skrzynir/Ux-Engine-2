@@ -4,16 +4,11 @@ using UnityEngine;
 
 public class DoorDestroy : MonoBehaviour
 {
-
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name.Contains("Door"))
         {
-            Destroy(collision.gameObject);
-            
+            Destroy(collision.gameObject);            
         }
-    }
-
-   
+    }   
 }

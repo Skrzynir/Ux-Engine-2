@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class MirrorMovement : MonoBehaviour
 {
-    public Transform OriginalVersion;
-
-    
+    public Transform OriginalVersion;       
     
     void Update()
     {

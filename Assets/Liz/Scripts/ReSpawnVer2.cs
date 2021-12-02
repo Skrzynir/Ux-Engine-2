@@ -10,8 +10,8 @@ public class ReSpawnVer2 : MonoBehaviour
     public GameObject player;
     public GameObject spawnpoint;
     public ParticleSystem particles;
-   
 
+    
     void Update()
     {
         if (Alive == false)
@@ -20,11 +20,8 @@ public class ReSpawnVer2 : MonoBehaviour
             Alive = true;
             particles.Play();
             spawnpoint.GetComponent<AudioSource>().Play();
-
-           
-
-        }
-                
+            
+        }                
     }
 
     public void OnCollisionEnter2D(Collision2D collision)

@@ -15,8 +15,7 @@ public class OrbCollection : MonoBehaviour
 
     void Start()
     {
-        orb = player.GetComponent<OrbCheck>();
-       
+        orb = player.GetComponent<OrbCheck>();       
     }
 
     private void Update()
@@ -26,8 +25,7 @@ public class OrbCollection : MonoBehaviour
             orb.HasOrb = true;
             collect = true;
             Destroy(gameObject);
-            source.PlayOneShot(orbget);
-            
+            source.PlayOneShot(orbget);            
         }
     }
 
@@ -41,6 +39,9 @@ public class OrbCollection : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        pass = false;
+        if (collision.gameObject.tag == "Player")
+        {
+            pass = false;
+        }
     }
 }

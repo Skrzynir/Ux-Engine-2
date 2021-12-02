@@ -14,21 +14,9 @@ public class DoorOpenWithOrbs : MonoBehaviour
     public AudioClip doorshut;
 
     void Start()
-    {
-       
+    {       
         orb = player.GetComponent<OrbCheck>();
-    }
-
-    void Update()
-    {
-        if (orb.HasOrb == true)
-            {
-
-                       
-
-            }
-                
-    }
+    }    
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -36,13 +24,11 @@ public class DoorOpenWithOrbs : MonoBehaviour
         {
             source.PlayOneShot(dooropen);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
         }
 
         if (collision.gameObject.tag == "Player" && orb.HasOrb == false)
         {
             source.PlayOneShot(doorshut);
         }
-    }
-    
+    }    
 }

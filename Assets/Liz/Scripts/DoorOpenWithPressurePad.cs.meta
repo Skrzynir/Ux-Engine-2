@@ -3,7 +3,11 @@ guid: d40a64af0736f1149b65f177c793a136
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - PressurePad: {instanceID: 0}
+  - source: {instanceID: 0}
+  - dooropen: {fileID: 8300000, guid: 240ab9a525821b04782e8002ac7f7329, type: 3}
+  - doorshut: {fileID: 8300000, guid: cfd9ed478f1b6d24a99d16e65074c27b, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

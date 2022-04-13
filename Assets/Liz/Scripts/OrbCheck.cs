@@ -6,14 +6,24 @@ public class OrbCheck : MonoBehaviour
 {
     public bool HasOrb = false;
     public bool Trigger = false;
-    
-    public void Update()
+
+
+  
+      public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && Trigger == true)
+        if (Trigger == true)
         {
             HasOrb = true;
         }
     }
+    
+    // public void Update()
+    // {
+    //     if (Input.GetKeyDown(KeyCode.E) && Trigger == true)
+    //     {
+    //         HasOrb = true;
+    //     }
+    // }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

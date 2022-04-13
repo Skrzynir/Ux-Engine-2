@@ -14,7 +14,7 @@ public class PhotoPickUp : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && pass == true)
+        if (pass == true)
         {
             SpriteRenderer img = GetComponent<SpriteRenderer>();
             GameObject newPhoto = Instantiate(photoPrefab, Vector3.zero, Quaternion.identity, PhotoGroup.transform);

@@ -14,15 +14,21 @@ public class Switch : MonoBehaviour
     public AudioSource source;
     public AudioClip switchacti;
 
+    PlayerInput playerInput;
+
 
     private void Start()
     {
+        playerInput = new PlayerInput();
+        playerInput.PlayerMap.Activate.performed += c => Activate();
+        playerInput.Enable();
+
         SR = GetComponent<SpriteRenderer>();       
     }
 
-    void Update()
+    public void Activate()
     {
-        if (Input.GetKeyDown(KeyCode.E) && SwitchToPress == true)
+        if (SwitchToPress == true)
         {
             SwitchActive = true;
             SR.sprite = GreySwitch;

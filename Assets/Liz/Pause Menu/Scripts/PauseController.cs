@@ -7,17 +7,24 @@ public class PauseController : MonoBehaviour
     public bool isPaused;
     public GameObject PauseMenu;
 
+    //new input
+    PlayerInput playerInput;
+
     void Start()
     {
         PauseMenu.SetActive(false);
+        //new input
+        playerInput = new PlayerInput();
+        playerInput.PlayerMap.Pause.performed += c => TogglePause();
+        playerInput.Enable();
+
     }
 
-    
-    void Update()
-    {
-        if (Input.GetButtonDown("Cancel"))
-            TogglePause();
-    }
+    // void Update()
+    // {
+    //     if (Input.GetButtonDown("Cancel"))
+    //         TogglePause();
+    // }
 
     public void TogglePause()
     {
@@ -25,4 +32,5 @@ public class PauseController : MonoBehaviour
         Time.timeScale = isPaused ? 0f : 1f;
         PauseMenu.SetActive(isPaused);
     }
+
 }

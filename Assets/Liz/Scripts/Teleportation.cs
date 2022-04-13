@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,27 +9,37 @@ public class Teleportation : MonoBehaviour
         
     AudioSource AS;
 
+    PlayerInput playerInput;
+
     private void Start()
     {
+        playerInput = new PlayerInput();
+        playerInput.PlayerMap.Interact.performed += c => Interact();
+        playerInput.Enable();
+        
         AS = GetComponent<AudioSource>();
     }
 
     private bool triggerEntered = false;    
 
-    void Update()
+
+    public void Interact()
     {
-         if (Input.GetKeyDown(KeyCode.E) && triggerEntered == true)
+    
+    Debug.Log("tele");
+    
+    if (triggerEntered == true)
         {
             player.transform.position = teleportTarget.transform.position;
             AS.Play();
             AudioVolume();
-
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        triggerEntered = true;               
+        triggerEntered = true;  
+        Debug.Log ("true");            
     }
 
     private void OnTriggerExit2D(Collider2D other)

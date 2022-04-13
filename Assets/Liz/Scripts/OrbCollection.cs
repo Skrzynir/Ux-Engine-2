@@ -11,16 +11,29 @@ public class OrbCollection : MonoBehaviour
     [SerializeField]
     public AudioSource source;
     public AudioClip orbget;
+
+   
     
 
     void Start()
     {
-        orb = player.GetComponent<OrbCheck>();       
+         orb = player.GetComponent<OrbCheck>();       
     }
 
-    private void Update()
+    // private void Update()
+    // {
+    //     if (Input.GetKeyDown(KeyCode.E) && pass == true)
+    //     {
+    //         orb.HasOrb = true;
+    //         collect = true;
+    //         Destroy(gameObject);
+    //         source.PlayOneShot(orbget);            
+    //     }
+    // }
+
+  private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && pass == true)
+        if (pass == true)
         {
             orb.HasOrb = true;
             collect = true;
@@ -28,6 +41,7 @@ public class OrbCollection : MonoBehaviour
             source.PlayOneShot(orbget);            
         }
     }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
